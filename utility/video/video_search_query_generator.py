@@ -45,7 +45,7 @@ def fix_json(json_str):
     json_str = json_str.replace("’", "'")
     # Replace any incorrect quotes (e.g., mixed single and double quotes)
     json_str = json_str.replace("“", "\"").replace("”", "\"").replace("‘", "\"").replace("’", "\"")
-    # Add escaping for quotes within the strings
+   
     json_str = json_str.replace('"you didn"t"', '"you didn\'t"')
     return json_str
 

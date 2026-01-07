@@ -70,7 +70,7 @@ def get_output_media(audio_file_path, timed_captions, background_video_data, vid
 
     video.write_videofile(OUTPUT_FILE_NAME, codec='libx264', audio_codec='aac', fps=25, preset='veryfast')
     
-    # Clean up downloaded files
+    
     for (t1, t2), video_url in background_video_data:
         video_filename = tempfile.NamedTemporaryFile(delete=False).name
         os.remove(video_filename)

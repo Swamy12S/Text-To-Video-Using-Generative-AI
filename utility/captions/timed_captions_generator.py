@@ -1,4 +1,4 @@
-import whisper_timestamped as whisper
+import whisper_timestamped as whisper   # pip install whisper-timestamped
 from whisper_timestamped import load_model, transcribe_timestamped
 import re
 

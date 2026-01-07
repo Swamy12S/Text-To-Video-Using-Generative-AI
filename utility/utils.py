@@ -2,7 +2,7 @@ import os
 from datetime import datetime
 import json
 
-# Log types
+# Log 
 LOG_TYPE_GPT = "GPT"
 LOG_TYPE_PEXEL = "PEXEL"
 

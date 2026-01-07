@@ -45,24 +45,3 @@ To generate a video, just click on all the cells one by one. Setup your api keys
 
 As an open-source project we are extremely open to contributions. To get started raise an issue in Github or create a pull request
 
-### Other useful Video AI Projects
-
-[AI Influencer generator](https://github.com/SamurAIGPT/AI-Influencer-Generator)
-
-[AI Youtube Shorts generator](https://github.com/SamurAIGPT/AI-Youtube-Shorts-Generator/)
-
-[Faceless Video Generator](https://github.com/SamurAIGPT/Faceless-Video-Generator)
-
-[AI B-roll generator](https://github.com/Anil-matcha/AI-B-roll)
-
-[AI video generator](https://www.vadoo.tv/ai-video-generator)
-
-[Text to Video AI](https://www.vadoo.tv/text-to-video-ai)
-
-[Autoshorts AI](https://www.vadoo.tv/autoshorts-ai)
-
-[Pixverse alternative](https://www.vadoo.tv/pixverse-ai)
-
-[Hailuo AI alternative](https://www.vadoo.tv/hailuo-ai)
-
-[Minimax AI alternative](https://www.vadoo.tv/minimax-ai)
