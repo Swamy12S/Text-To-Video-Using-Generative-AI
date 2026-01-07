@@ -2,7 +2,6 @@
 
 Generate video from text using Gen AI
 
-### Medium tutorial -> https://medium.com/@anilmatcha/text-to-video-ai-how-to-create-videos-for-free-a-complete-guide-a25c91de50b8
 
 ### Demo Video
 
