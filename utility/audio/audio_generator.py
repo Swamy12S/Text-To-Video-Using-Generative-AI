@@ -1,8 +1,14 @@
-import edge_tts
+from gtts import gTTS
 
-async def generate_audio(text,outputFilename):
-    communicate = edge_tts.Communicate(text,"en-AU-WilliamNeural")
-    await communicate.save(outputFilename)
+def generate_audio(text: str, output_filename: str):
+    """
+    Generate audio from text using Google Text-to-Speech (gTTS).
+    Stable replacement for edge-tts.
+    """
+    tts = gTTS(text=text, lang="en")
+    tts.save(output_filename)
+
+    print(f"Audio generated successfully: {output_filename}")
 
 
 

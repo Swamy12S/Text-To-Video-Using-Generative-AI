@@ -5,7 +5,8 @@ import re
 from datetime import datetime
 from utility.utils import log_response,LOG_TYPE_GPT
 
-if len(os.environ.get("GROQ_API_KEY")) > 30:
+api_key = os.environ.get("GROQ_API_KEY")
+if api_key and len(api_key) > 30:
     from groq import Groq
     model = "llama3-70b-8192"
     client = Groq(
